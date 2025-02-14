@@ -3,10 +3,47 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Recipes</title>
+        <style>
+            body {
+                background-color: antiquewhite;
+            }
+            .lasanga {
+                text-align: center;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 2rem;
+                text-transform: capitalize;
+                font-weight: 100;
+            }
+
+            .lasanga > img{
+                border: 2px solid;
+                border-radius: 6%;
+                color: rgb(195, 182, 207);
+                height: auto;
+                width: 50%;
+            }
+            h2, p {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            ul, ol{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            }
+
+            button{
+                color: rgb(225, 167, 96);
+                font-size: large;
+            }
+
+
+        </style>
     </head>
     <body>
+    <div class="lasanga">
         <h1>lasanga</h1>
-        <img src="../images/lasanga.jpg" alt="World best" height="310" width="310"/>
+        <img class="img" src="../images/lasanga.jpg" alt="World best" height="310" width="310"/>
+    </div>
         <h2>Description</h2>
         <p> Making lasagna can be time-consuming, but the results are well worth the wait.<br/>
             You'll find a detailed ingredient list and step-by-step instructions in the recipe below, but let's go over the basics:
@@ -37,7 +74,7 @@
             <li>Cover with foil and bake.</li>
             <li>Let the lasagna rest before serving.</li>
         </ol>
-        <a href="../index.html">Home</a>
+        <a href="../index.html"><button>Home</button></a>
     </body>
 
 </html>
